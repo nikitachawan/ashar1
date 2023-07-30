@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        background-color: aliceblue;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+    height:500px;
+    width:300px;
+    background-color:white;
+  border:1px solid;
+  border-radius: 8px;
+ padding:0.6rem;
+ border-color: #f9f9f9;
+
+}
+.image img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.btn-1{
+   margin:12px 8px;
+}
+.btn-1 button{
+    border:1px solid #c6cdcf; 
+    border-radius: 1.5rem;
+    background-color: white;
+    color:gray;
+    padding:3px .6rem;
+    font-weight: 500;
+}
+.btn-2{
+    margin-left:5px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:5px;
+}
+.btn{
+    text-align: center;
+}
+ p{
+    color:#6c757d;
+    padding-top: 18px;
+    margin-left:5px;
+ }
+.btn button{
+    margin-top: 1.7rem;
+    padding:9px 1.2rem;
+    color:rgb(12, 128, 231);
+    border-radius: 1.5rem;
+    background-color:hsl(195, 53%, 79%,0.5);
+    border-color: transparent;   
+    font-weight: 700;
+
+}
+.btn-active:active{
+  color:rgb(235, 41, 41);
+}
+</style>
+<body>
+    <div class="container">
+    <div class="card">
+        <div class="image">
+            <img src="images/images.jpeg" alt="">
+        </div>
+        <div class="btn-1">
+        <button class="btn-active">Nature</button>
+        <button class="btn-2 btn-active">Lake</button>
+        </div>
+            <h1>Lago di Braies</h1>
+        <p class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic repudiandae voluptates expedita tenetur alias ratione velit, itaque fugit necessitatibus possimus sint repellat quam omnis blanditiis deleniti vitae!</p>
+<div class="btn">
+<button  class="btn-active">Read More</button>
+</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*css reset*/
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    a{
+        text-transform: capitalize;;
+        text-decoration: none;
+        color: white;
+    }
+    header{
+        background-color: black;
+        
+    }
+    header{
+        display: inline;
+    }
+    ul{
+        padding:16px;
+    }
+    main{
+        padding:16px;
+    }
+    .box{
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   border:1px solid;
+    }
+    div.red{
+        background-color:blue;
+    }
+    .red{
+        color:red;
+    }
+header a:hover{
+    color:red;
+}
+    header li :not(:first-child){
+        margin-left: 1rem;
+    }
+</style>
+<body>
+    <header>
+   <!-- navlinks -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li class><a href="#">Contact</a></li>
+            </ul>
+       </nav>
+    </header>
+    <main><ul>
+        <li>block</li>
+        <li>inline</li>
+        <li>inline-block</li>
+        <li>end</li>
+    </ul>
+    <h1>Navbar</h1>
+    <span>one</span>
+    <span>Two</span>
+    <span>Three</span>
+    <br>
+    <p class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="red"></span>Incidunt, modi harum? Perferendis, minima debitis corporis facilis cumque ducimus error velit.
+    </p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex impedit sapiente beatae sequi totam libero dignissimos necessitatibus sint similique quisquam.</p>
+
+<div class="box red">box-1</div>
+<div class="box">box-2</div>
+    </main>
+
+</body>
+</html>
